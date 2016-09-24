@@ -24,7 +24,7 @@ Remarkable plugin that will turn all @ mentions into a link. This is done just a
 
 **Params**
 
-* `options` **{Object}**: Options to control how the @ mentions are transformed. See [to-mention-link][] for more options.
+* `options` **{Object}**: Options to control how the @ mentions are transformed. See [to-mention-link](https://github.com/doowb/to-mention-link) for more options.
 * `options.url` **{String}**: Customize the url that is used in the links. Defaults to "https://github.com".
 * `returns` **{Function}**: Remarkable plugin function that can be passed to the `.use` method.
 
@@ -37,6 +37,13 @@ var html = md.render(markdown);
 ```
 
 ## About
+
+### Related projects
+
+* [markdown-link](https://www.npmjs.com/package/markdown-link): Micro util for generating a single markdown link. | [homepage](https://github.com/jonschlinkert/markdown-link "Micro util for generating a single markdown link.")
+* [parse-mentions](https://www.npmjs.com/package/parse-mentions): Parse and optionally replace @ mentions from a string of text. | [homepage](https://github.com/doowb/parse-mentions "Parse and optionally replace @ mentions from a string of text.")
+* [remarkable](https://www.npmjs.com/package/remarkable): Markdown parser, done right. 100% Commonmark support, extensions, syntax plugins, high speed - all in… [more](https://github.com/jonschlinkert/remarkable) | [homepage](https://github.com/jonschlinkert/remarkable "Markdown parser, done right. 100% Commonmark support, extensions, syntax plugins, high speed - all in one.")
+* [to-mention-link](https://www.npmjs.com/package/to-mention-link): Create links from @ mentions. | [homepage](https://github.com/doowb/to-mention-link "Create links from @ mentions.")
 
 ### Contributing
 
