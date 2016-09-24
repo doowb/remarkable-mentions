@@ -20,17 +20,35 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [
-    "mentions",
-    "remarkable"
-  ],
   "dependencies": {
-    "extend-shallow": "^2.0.1"
+    "extend-shallow": "^2.0.1",
+    "to-mention-link": "^0.1.0"
   },
   "devDependencies": {
     "gulp-format-md": "^0.1.10",
+    "mocha": "^3.0.2",
     "remarkable": "^1.6.2"
   },
+  "keywords": [
+    "@-mention",
+    "@-mentions",
+    "@mention",
+    "@mentions",
+    "at-mention",
+    "at-mentions",
+    "mention",
+    "mention-link",
+    "mention-links",
+    "mentions",
+    "mentions-link",
+    "mentions-links",
+    "parse",
+    "remarkable",
+    "remarkable-plugin",
+    "remarkableplugin",
+    "to-mention-links",
+    "to-mentions-links"
+  ],
   "verb": {
     "toc": false,
     "layout": "default",
@@ -44,7 +62,12 @@
       "reflinks": true
     },
     "related": {
-      "list": []
+      "list": [
+        "to-mention-link",
+        "parse-mentions",
+        "remarkable",
+        "markdown-link"
+      ]
     },
     "reflinks": [
       "verb",
